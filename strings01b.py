@@ -7,7 +7,7 @@ if len(string) == 1:# check for one chracter
 else:
 	print("the string is is not one character long")
 
-string = "A":
+string = "A"
 
 if len(string) > 1:# check for more than one character
 	print("the string is over a single character")
