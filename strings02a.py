@@ -12,7 +12,7 @@ print("word it starts at position: "+str(string.find("it")))
 #points to the first it
 
 x = string.find("it")+1
-print("word it starts at position: "+str(string.find("it",start = x)))
+print("word it starts at position: "+str(string.find("it",x)))
 
 user = input("enter string ")
 
