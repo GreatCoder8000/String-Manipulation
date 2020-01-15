@@ -17,7 +17,7 @@ uinput = input("string")
 find = input("what to find")
 
 while position >= 0:
-  position = input.find(find,start_position)
+  position = uinput.find(find,start_position)
   
   if position != -1:
     print("found at position:",position)
