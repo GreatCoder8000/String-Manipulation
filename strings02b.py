@@ -1,8 +1,8 @@
 string = "this exam is an example of how we can examine the curriculum"
 matching = "exam"
 
-print(".. first "an" appears at position: ", string.find("an"))
-print(".. second "an" appears at position: ", string.find("an",15))
+print(".. first 'an' appears at position: ", string.find("an"))
+print(".. second 'an' appears at position: ", string.find("an",15))
 
 first_exam = string.find("matching")
 second_exam = string.find("matching",first_exam+1))
