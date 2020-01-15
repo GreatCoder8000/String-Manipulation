@@ -21,7 +21,7 @@ while position >= 0:
   
   if position != -1:
     print("found at position:",position)
-    start_position = position
+    start_position = position+1
     count+=1
   else:
     print("no more matches")
