@@ -5,7 +5,7 @@ print(".. first 'an' appears at position: ", string.find("an"))
 print(".. second 'an' appears at position: ", string.find("an",15))
 
 first_exam = string.find("matching")
-second_exam = string.find("matching",first_exam+1))
+second_exam = string.find("matching",first_exam+1)
 
 print(".. first "exam" appears at position: ", first_exam)
 print(".. second "exam" appears at position: ", second_exam)
