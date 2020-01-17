@@ -22,4 +22,4 @@ print(string)
 if string[0:7] == "Question":
   print(string, "is a question")
 else:
-  print(string, "is NOT a Question, so is an Answer)
+  print(string, "is NOT a Question, so is an Answer")
