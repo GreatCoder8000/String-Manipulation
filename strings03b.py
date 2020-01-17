@@ -10,16 +10,16 @@ else:
 
 print(string)
 
-if string.find("answer") != -1:
+if string[0:7] == "Question":
   print(string, "is a Question")
 else:
-  print(string, "is NOT a Question, so is an ", string[0:5])
+  print(string, "is NOT a Question, so is an Answer")
   
 string = "Answer: is C"
 
 print(string)
 
-if string[0:7] == "Answer":
-  print(string, "Question is: ",string[1,string.find("C")])
+if string[0:7] == "Question":
+  print(string, "is a question")
 else:
-  print(string, "is NOT a Question, so is an ", string[0:5])
+  print(string, "is NOT a Question, so is an Answer)
